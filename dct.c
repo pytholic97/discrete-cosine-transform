@@ -53,7 +53,7 @@ int main(){
   for(i = 0;i < m;i++)
     for(j = 0;j < n;j++)
       scanf(" %f",&in[i][j]);
-
+  printf("DCT is: \n");
   for(i = 0;i < m;i++){
     for(j = 0;j < n;j++){
       for(u = 0;u < m;u++)
